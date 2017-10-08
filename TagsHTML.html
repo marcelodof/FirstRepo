@@ -7,6 +7,20 @@
     text-align: center;
     color: red;
   }
+  .menu{
+    margin: 0;
+    padding: 0; <!-- esses 2 estilos fazem com que a lista começe no canto da tela (tira a margem) -->
+  }
+  .topo{
+    display: block;
+    background-color: #dddddd;
+    position: fixed;
+
+  }
+  body{
+    background-color: #ccccFF;
+    background-position: right;
+  }
   </style>
   <!-- isso é uma classe no CSS -->
 
@@ -20,6 +34,7 @@
 </head>
 
 <body>
+  <div class="topo">
   <i><b style="font-size: 30px"> Este site foi feito para:</b></i>
   <ul>
     <li>Demonstrar as Tags de html</li>
@@ -27,8 +42,12 @@
     <li>Se divertir</li>
   </ul>
   <hr>
-  <img src="http://www.osul.com.br/wp-content/uploads/2015/06/bandeira_brasil.jpg">
-  <ol>
+</div>
+<div style="text-align: right; position: fixed; float: right">
+<img src="http://www.osul.com.br/wp-content/uploads/2015/06/bandeira_brasil.jpg">
+</div>
+<div style="padding-top: 300px">a</div>
+  <ol style="float: left">
     <li><h1> Tamanho 1 </h1></li>
     <li><h2> Tamanho 2 </h2></li>
     <li><h3> Tamanho 3 </h3></li>
@@ -43,12 +62,10 @@
       digitar "HTML" e enter no atom cria o esqueleto de um site </p>
 
       <div style="font-style: bold">
-        <span style="color: red"> "style" é um complemento tag para localizar o CSS em um grupo de elementos</span>
-        <p> <span style="font-style: italic;"><span style="font-size: 20px;">
-          span aparentemente somente altera uma coisa.... eu odeio span, nunca mais usar isso(aparentemente text-align n funciona com span tbm)</span></span></p>
+        <p style="color: red"> "style" é um complemento tag para localizar o CSS em um grupo de elementos</p>
         </div>
 
-        <p style="text-align: center"> A diferença entre ID e class é q id é unico, ele deve ser usado somente uma vez em um elemento, já classe
+        <p style="text-align: center; float: right"> A diferença entre ID e class é q id é unico, ele deve ser usado somente uma vez em um elemento, já classe
           pode ser usada varias vezes em qualquer tag. Logo, eu somente vou usar classes aqui</p>
 
           <hr>
@@ -57,10 +74,50 @@
           <p style="width: 5px;"> "width" define a largura no texto</p>
           <p class="teste"> </p>
 
-          aaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-
-
-
+        <div style="width: 5px">
+        a
+        a
+        a
+        a
+        a
+        a
+        a
+        aa
+        a
+        aa
+        a
+        aa
+        a
+        aa
+        a
+        aa
+        a
+        aa
+        a
+        aa
+        a
+        aa
+        a
+        aa
+        a
+        aa
+        a
+        aa
+        a
+        aa
+        a
+        aa
+        a
+        aa
+        a
+        aa
+        a
+        aa
+        a
+        aa
+        a
+        a
+      </div>
           <!-- comentario -->
         </body>
 
