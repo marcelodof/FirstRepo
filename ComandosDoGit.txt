@@ -21,6 +21,25 @@ $ git push origin master
 
 só colocar o seu username e a senha, o username é "marcelodof"
 
+para atualizar o repertorio local, se usa pull
+$ git pull
+eu n sei usar isso direito, mto provavelmete esta errado
+
 USO DE BRANCHES:
 
+criar um branch:
+$ git checkout -b <nome do branch>
 
+mudar de branch para branch:
+$ git checkcout <nome do branch>
+$ git checkout master
+
+estando no branch q vc quer atualizar, se usa merge e dps push:
+$ git merge <nome do branch q esta a frente desse>
+$ git push origin <nome do branch atualizado>
+
+deletando um branch, n pode estar nesse branch:
+$ git branch -d <nome do branch>
+
+existem outros comandos, para, por exemplo, desconsiderar os commits, ou voltar um commit, ou coisas
+mais avançadas assim. eu n sei usar direito, mas existem.
