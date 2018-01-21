@@ -21,3 +21,6 @@ $ git push origin master
 
 só colocar o seu username e a senha, o username é "marcelodof"
 
+USO DE BRANCHES:
+
+
