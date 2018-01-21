@@ -4,9 +4,6 @@ primeiro precisa configurar a conta, colocando no terminal:
 $ git config --global user.email "marcelodof@uol.com.br"
 $ git config --global user.name "Marcelo"
 
-e configurar o estilo de push:
-$ git config --global push.default simple
-
 após isso, precisa clonar o repositorio q vc pretende trabalhar:
 $ git clone <link>
 esse link vc pega no repositorio na internet msm, tem uma opçao "clone or
@@ -20,7 +17,7 @@ e dar commit:
 $ git commit -m "<mensagem explicando oq vc adicionou>"
 
 após isso, só dar push:
-$ git push
+$ git push origin master
 
 só colocar o seu username e a senha, o username é "marcelodof"
 
