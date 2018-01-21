@@ -1,7 +1,11 @@
 GUIA DOS COMANDOS DO GIT:
 
 primeiro precisa configurar a conta, colocando no terminal: 
-$ sudo git config --global user@email "marcelodof@uol.com.br"
+$ git config --global user.email "marcelodof@uol.com.br"
+$ git config --global user.name "Marcelo"
+
+e configurar o estilo de push:
+$ git config --global push.default simple
 
 após isso, precisa clonar o repositorio q vc pretende trabalhar:
 $ git clone <link>
@@ -12,7 +16,7 @@ agr é só entrar na pasta, alterar oq quiser e depois
 tem q adicionar de volta:
 $ git add <arquivo alterado>
 
-e dar commir:
+e dar commit:
 $ git commit -m "<mensagem explicando oq vc adicionou>"
 
 após isso, só dar push:
