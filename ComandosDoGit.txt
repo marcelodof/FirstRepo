@@ -1,3 +1,22 @@
 GUIA DOS COMANDOS DO GIT:
 
+primeiro precisa configurar a conta, colocando no terminal: 
+$ sudo git config --global user@email "marcelodof@uol.com.br"
+
+após isso, precisa clonar o repositorio q vc pretende trabalhar:
+$ git clone <link>
+esse link vc pega no repositorio na internet msm, tem uma opçao "clone or
+download", la vc copia o link para cola-lo ali
+
+agr é só entrar na pasta, alterar oq quiser e depois
+tem q adicionar de volta:
+$ git add <arquivo alterado>
+
+e dar commir:
+$ git commit -m "<mensagem explicando oq vc adicionou>"
+
+após isso, só dar push:
+$ git push
+
+só colocar o seu username e a senha, o username é "marcelodof"
 
